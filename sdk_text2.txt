@@ -1,0 +1,1 @@
+This is file added using sdk-node but not having public access in S3.

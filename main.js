@@ -5,9 +5,9 @@ import { s3Client } from "./client.js";
 // Set the parameters
 const params = {
   Bucket: "deepthi-aws-s3-sdk-node-bucket", // The name of the bucket. For example, 'sample_bucket_101'.
-  Key: "sample_sdk_text1.txt", // The name of the object. For example, 'sample_upload.txt'.
-  Body: "This is a sample text file loaded using SDK-node.", // The content of the object. For example, 'Hello world!".
-  ACL:'public-read' // Make this file publicly accessible
+  Key: "sdk_text2.txt", // The name of the object. For example, 'sample_upload.txt'.
+  Body: "This is file added using sdk-node but not having public access in S3.", // The content of the object. For example, 'Hello world!".
+  // ACL:'public-read' // Make this file publicly accessible
 };
 
 const run = () => {
